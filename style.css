@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+color: white;
+height: 100vh;
+width: 100vw;
+}
+header{
+color: white;
+background-color: black;
+display: flex;
+height: 8vh;
+width: 100vw;
+}
+.logo{
+    width: 15vw;
+}
+.button01-div{
+  width: 12vw;
+  align-items: center;
+  margin-right: 0vw;
+}
+.button01{
+    color: white;
+    background-color: rgb(237, 52, 188);
+    width: 8vw;
+    height: 5vh;
+    font-size: 15px;
+    margin-top: 1.5vh;
+    margin-left: 2vw;
+    border-radius: 5px;
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+    width: 80vw;
+    
+}
+li{
+   gap: 50px;
+   padding: 15px;
+}
+
+
+main{
+    background-image: url(bg.png);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 92vh;
+    width: 100vw;   
+
+}
+.div-h{
+    height: 60vh;
+    width: 80vw;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    margin-top: 22vh;
+    font-size: 80px;
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.button02-div{
+    margin: auto;
+    text-align: center;
+}
+.button02{
+    height: 5vh;
+    width: 12vw;
+    margin: auto;
+    color: white;
+    background-color: rgb(237, 52, 188);
+    border: none;
+    border-radius: 5px;
+}
